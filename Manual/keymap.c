@@ -72,7 +72,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * ,-----------------------------------------------------------------------------------------------------------.
  * |  Esc   |   1    |   2    |   3    |   4    |   5    |   6    |   7    |   8    |   9    |   0    |  Bksp  |
  * |--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
- * |  Tab   |   ^    |   \|   |   ]    |   \_   |        |        |  Home  |  End   | Enter  |  Esc   | Pg Up  |
+ * |  Tab   |   ^    |   \_   |   ]    |   \|   |        |        |  Home  |  End   | Enter  |  Esc   | Pg Up  |
  * |--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
  * | Shift  |        |   -    |   :    |        |        |  Del   |  Bksp  |  Ins   |  Tab   |   Up   | Pg Dn  |
  * |--------+--------+--------+--------+--------+--------|--------+--------+--------+--------+--------+--------|
@@ -81,7 +81,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  */
 [_USER1] = LAYOUT_planck_grid(
     _______, KC_1,    KC_2,    KC_3,    KC_4,    KC_5,    KC_6,    KC_7,    KC_8,    KC_9,    KC_0,    KC_BSPC,
-    KC_TAB,  KC_EQL,  KC_JYEN, KC_NUHS, KC_RO,   XXXXXXX, XXXXXXX, KC_HOME, KC_END,  KC_ENT,  KC_ESC,  KC_PGUP,
+    KC_TAB,  KC_EQL,  KC_RO   ,KC_NUHS, KC_JYEN,   XXXXXXX, XXXXXXX, KC_HOME, KC_END,  KC_ENT,  KC_ESC,  KC_PGUP,
     _______, XXXXXXX, KC_MINS, KC_QUOT, XXXXXXX, XXXXXXX, KC_DEL,  KC_BSPC, KC_INS,  KC_TAB,  KC_UP,   KC_PGDN ,
     _______, _______, _______, XXXXXXX, _______, _______, _______, KC_HENK, KC_KANA, KC_LEFT, KC_DOWN, KC_RGHT
 ),
